@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IoMT Security Intelligence | Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <h2>IoMT Dataset</h2>
+      </div>
+      <nav id="sidebar-nav">
+        <a href="#" class="active" data-view="overview"><i class="icon-dashboard"></i> Overview</a>
+        <a href="#" data-view="feed"><i class="icon-alerts"></i> Attack Feed</a>
+        <a href="#" data-view="analytics"><i class="icon-analytics"></i> Analytics</a>
+        <a href="#" data-view="settings"><i class="icon-settings"></i> Settings</a>
+      </nav>
+      <div class="system-status">
+        <div class="status-indicator live"></div>
+        <span>System Online</span>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h1>IoMT Threat Intelligence</h1>
+        <div class="header-actions">
+          <div class="model-info">
+             <span>Model: XGBoost / Logistic Regression Pipeline</span>
+             <span class="accuracy-badge">98.4% Acc</span>
+          </div>
+          <button class="export-btn" id="export-btn">Export Report</button>
+        </div>
+      </header>
+
+      <!-- Views Container -->
+      <div id="view-overview" class="view-panel active-view">
+        <!-- KPI Grid -->
+        <section class="kpi-grid" style="margin-bottom: 32px;">
+          <div class="kpi-card glass">
+            <h3>Total Analyzed Traffic</h3>
+            <div class="kpi-value" id="kpi-traffic">--</div>
+            <p class="kpi-trend positive">+12% vs last week</p>
+          </div>
+          <div class="kpi-card glass">
+            <h3>Active Threats</h3>
+            <div class="kpi-value warning" id="kpi-threats">--</div>
+            <p class="kpi-trend neutral">Ongoing attacks</p>
+          </div>
+          <div class="kpi-card glass">
+            <h3>Blocked Attacks</h3>
+            <div class="kpi-value danger" id="kpi-blocked">--</div>
+            <p class="kpi-trend negative">Urgent intervention</p>
+          </div>
+          <div class="kpi-card glass">
+            <h3>System Uptime</h3>
+            <div class="kpi-value success" id="kpi-uptime">99.99%</div>
+            <p class="kpi-trend positive">No downtime</p>
+          </div>
+        </section>
+
+        <!-- Main Dashboard Area -->
+        <section class="dashboard-body">
+          <!-- Live Alert Feed -->
+          <div class="panel glass alerts-panel">
+            <div class="panel-header">
+              <h2>Live Attack Feed</h2>
+              <span class="live-badge">Live</span>
+            </div>
+            <div class="alerts-container" id="alerts-container">
+              <!-- Alerts injected via JS -->
+            </div>
+          </div>
+
+          <!-- Attack Distribution -->
+          <div class="panel glass dataviz-panel">
+            <div class="panel-header">
+              <h2>Threat Distribution by Protocol</h2>
+            </div>
+            <div class="chart-container" id="chart-container">
+               <!-- Custom CSS Bar Chart injected via JS -->
+            </div>
+            <div class="details-section">
+               <h3>Dataset Context</h3>
+               <p>This intelligence dashboard reflects live model inferences on the <strong>IoMT-2024 dataset</strong>. Detecting DDoS (UDP/TCP/ICMP), Port Scans, and MQTT Floods.</p>
+            </div>
+          </div>
+
+          <!-- Positive Security Posture -->
+          <div class="panel glass dataviz-panel">
+            <div class="panel-header">
+              <h2>Security Posture</h2>
+            </div>
+            <div class="chart-container split-charts" id="positive-charts-container">
+               <!-- Injected via JS -->
+            </div>
+            <div class="details-section">
+               <h3>System Reliability</h3>
+               <p>Emphasizes positive sentiment: High accuracy detection rates and overwhelming amount of safely routed background traffic.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Historical View (Feed) -->
+      <div id="view-feed" class="view-panel">
+        <h2 style="margin-bottom: 24px; font-weight: 600;">Historical Attack Feed</h2>
+        <div class="panel glass">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Timestamp</th>
+                <th>Event ID</th>
+                <th>Attack Type</th>
+                <th>Source IP</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody id="historical-tbody">
+               <!-- Injected via JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Analytics View -->
+      <div id="view-analytics" class="view-panel">
+        <h2 style="margin-bottom: 24px; font-weight: 600;">Model Inference Matrix</h2>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+          <div class="panel glass">
+            <div class="panel-header">
+              <h2>Confusion Matrix</h2>
+            </div>
+            <div style="padding: 24px;">
+              <div class="cm-grid">
+                <div class="cm-header"></div>
+                <div class="cm-header">Pred: Benign</div>
+                <div class="cm-header">Pred: Attack</div>
+                
+                <div class="cm-label">True: Benign</div>
+                <div class="cm-cell high">1,876</div>
+                <div class="cm-cell">124</div>
+
+                <div class="cm-label">True: Attack</div>
+                <div class="cm-cell">214</div>
+                <div class="cm-cell high">41,876</div>
+              </div>
+              <p style="margin-top: 16px; font-size: 0.875rem; color: var(--text-muted)">
+                Matrix normalized across unseen test partition of IoMT-2024 dataset.
+              </p>
+            </div>
+          </div>
+
+          <div class="panel glass">
+            <div class="panel-header">
+              <h2>Classification Report</h2>
+            </div>
+            <div style="padding: 24px;">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th>Class</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ARP_Spoofing</td>
+                    <td>0.88</td><td>0.94</td><td>0.91</td>
+                  </tr>
+                  <tr>
+                    <td>Benign</td>
+                    <td>0.95</td><td>0.89</td><td>0.92</td>
+                  </tr>
+                  <tr>
+                    <td>MQTT-DDoS</td>
+                    <td>1.00</td><td>1.00</td><td>1.00</td>
+                  </tr>
+                  <tr>
+                    <td>Recon-Port_Scan</td>
+                    <td>0.99</td><td>0.98</td><td>0.99</td>
+                  </tr>
+                  <tr>
+                    <td>TCP_IP-DoS</td>
+                    <td>1.00</td><td>1.00</td><td>1.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings View -->
+      <div id="view-settings" class="view-panel">
+        <h2 style="margin-bottom: 24px; font-weight: 600;">System Configuration</h2>
+        <div class="panel glass" style="max-width: 600px;">
+          <div class="settings-form">
+            <div class="form-group">
+              <label>Database Archive URI</label>
+              <input type="text" class="form-control" value="postgresql://admin:***@localhost:5432/iomt_archive">
+            </div>
+            <div class="form-group">
+              <label>Model Threshold Sensitivity Level (Current: 85%)</label>
+              <input type="range" class="slider" min="50" max="99" value="85">
+            </div>
+            <div class="form-group">
+              <label>Automation Hooks</label>
+              <div>
+                <input type="checkbox" id="block_ips" checked>
+                <label for="block_ips" style="display:inline; font-weight:normal; margin-left:8px;">Automatically Drop Unsafe IPs at Firewall level</label>
+              </div>
+            </div>
+            <button class="export-btn" style="width: 100%; margin-top: 16px;">Save Configuration</button>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

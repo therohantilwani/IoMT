@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "evt_87019",
+    "timestamp": "2026-04-16T11:50:49Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9591,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 153.4186518621177,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_26315",
+    "timestamp": "2026-04-16T11:15:55Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.938,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.533536818717286,
+      "Magnitue": 11.515628531257653,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_24724",
+    "timestamp": "2026-04-16T11:09:04Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9375,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 183.6593557361752,
+      "Magnitue": 30.161177562677302,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_98560",
+    "timestamp": "2026-04-16T11:06:35Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9566,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 165.1262623120511,
+      "Magnitue": 19.512351292025176,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_18664",
+    "timestamp": "2026-04-16T11:03:58Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9662,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 903.2591425726708,
+      "Magnitue": 52.93391643618215,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_98322",
+    "timestamp": "2026-04-16T11:02:35Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9638,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 161.9009937368281,
+      "Magnitue": 9.334491323357977,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_86550",
+    "timestamp": "2026-04-16T10:52:02Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9837,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 17.466550508172933,
+      "Magnitue": 17.191099201905242,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_63128",
+    "timestamp": "2026-04-16T10:38:33Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.988,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.069248735046097,
+      "Magnitue": 11.668585072783326,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_65788",
+    "timestamp": "2026-04-16T10:21:41Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9286,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.486280614277198,
+      "Magnitue": 11.36261076095039,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_35382",
+    "timestamp": "2026-04-16T10:14:33Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9362,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.351611707390605,
+      "Magnitue": 10.546180037111837,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_54231",
+    "timestamp": "2026-04-16T10:13:46Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9251,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.902283973676458,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_51133",
+    "timestamp": "2026-04-16T10:08:57Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9751,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.566265243666868,
+      "Magnitue": 11.342250332339058,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_20414",
+    "timestamp": "2026-04-16T10:08:48Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9378,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 46.73706930637744,
+      "Magnitue": 21.46715420711648,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_90625",
+    "timestamp": "2026-04-16T10:06:24Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9455,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.388752625300876,
+      "Magnitue": 11.48790453430442,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_40747",
+    "timestamp": "2026-04-16T09:51:34Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9347,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 152.16986994375787,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_60276",
+    "timestamp": "2026-04-16T09:45:09Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9893,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.305634469461284,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_98454",
+    "timestamp": "2026-04-16T09:44:34Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.97,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 174.96886238729073,
+      "Magnitue": 33.3570874220295,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_65970",
+    "timestamp": "2026-04-16T09:40:27Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9592,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 160.95440634471603,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_36941",
+    "timestamp": "2026-04-16T09:38:53Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9655,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 146.15555960964565,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_49118",
+    "timestamp": "2026-04-16T08:47:51Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9236,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 174.05729969339873,
+      "Magnitue": 9.17514671662859,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_66841",
+    "timestamp": "2026-04-16T08:45:42Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9261,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 0.3622614392557912,
+      "Magnitue": 10.954451150103322,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_31738",
+    "timestamp": "2026-04-16T08:45:29Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.975,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 169.13360648307452,
+      "Magnitue": 41.76213334389823,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_48102",
+    "timestamp": "2026-04-16T08:34:36Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9645,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.937328530118158,
+      "Magnitue": 11.56651479708414,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_15205",
+    "timestamp": "2026-04-16T08:33:38Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9745,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.866870792924123,
+      "Magnitue": 11.674390675883693,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_13196",
+    "timestamp": "2026-04-16T08:25:41Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9812,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 172.2489457281428,
+      "Magnitue": 19.81614706831652,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_39388",
+    "timestamp": "2026-04-16T08:15:13Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9299,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 4.085649207377752,
+      "Magnitue": 11.079104220976037,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_23154",
+    "timestamp": "2026-04-16T08:11:15Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9845,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 67.27296956186999,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_67009",
+    "timestamp": "2026-04-16T08:09:17Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9728,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 4.17634536776856,
+      "Magnitue": 12.036719708814944,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_97589",
+    "timestamp": "2026-04-16T08:07:32Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9398,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 53.19132353970857,
+      "Magnitue": 11.92694052051876,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_57538",
+    "timestamp": "2026-04-16T07:47:53Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9766,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.84129546334893,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_53056",
+    "timestamp": "2026-04-16T07:40:19Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9426,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 156.80581313278674,
+      "Magnitue": 9.529312530676698,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_36864",
+    "timestamp": "2026-04-16T07:32:05Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9538,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.897760528230831,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_65797",
+    "timestamp": "2026-04-16T07:20:47Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9307,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.816133977733946,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_33072",
+    "timestamp": "2026-04-16T07:14:37Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9803,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.352180737078744,
+      "Magnitue": 11.700951265008657,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_45233",
+    "timestamp": "2026-04-16T07:10:37Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9409,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.035081855770802,
+      "Magnitue": 11.548535395284784,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_17682",
+    "timestamp": "2026-04-16T06:49:23Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9501,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.8745697974195945,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_40600",
+    "timestamp": "2026-04-16T06:47:53Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9738,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 15.017478110380234,
+      "Magnitue": 14.221028142399884,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_52236",
+    "timestamp": "2026-04-16T06:44:41Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9807,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.843619774245445,
+      "Magnitue": 10.546180037111837,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_16611",
+    "timestamp": "2026-04-16T06:15:46Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9624,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.07875514534041,
+      "Magnitue": 11.594362792199233,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_93130",
+    "timestamp": "2026-04-16T05:56:50Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9362,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 164.88135341803078,
+      "Magnitue": 50.039984012787215,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_45551",
+    "timestamp": "2026-04-16T05:29:44Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9806,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 120.49077129017626,
+      "Magnitue": 11.489125293076055,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_51268",
+    "timestamp": "2026-04-16T05:25:17Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9378,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 132.80663946856723,
+      "Magnitue": 13.960799848521289,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_41966",
+    "timestamp": "2026-04-16T05:19:27Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9513,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 173.57983667237582,
+      "Magnitue": 9.32393824813329,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_63138",
+    "timestamp": "2026-04-16T05:17:26Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9739,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.666983411482285,
+      "Magnitue": 11.943722727245763,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_53886",
+    "timestamp": "2026-04-16T05:17:06Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9851,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 161.91085227537673,
+      "Magnitue": 20.62993905078977,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_50750",
+    "timestamp": "2026-04-16T05:08:55Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9281,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 0.0784792394325105,
+      "Magnitue": 11.643082556642048,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_47087",
+    "timestamp": "2026-04-16T04:52:52Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9337,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.164320890135354,
+      "Magnitue": 11.586667444884704,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_46822",
+    "timestamp": "2026-04-16T04:36:10Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9536,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 0.1157606659139548,
+      "Magnitue": 10.954451150103322,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_86493",
+    "timestamp": "2026-04-16T04:33:07Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9874,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 164.5453473828941,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_60667",
+    "timestamp": "2026-04-16T04:30:53Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9675,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 166.67475442620164,
+      "Magnitue": 9.211989311284787,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_40341",
+    "timestamp": "2026-04-16T04:28:21Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9846,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 78.88794943527824,
+      "Magnitue": 45.43206998784427,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_27470",
+    "timestamp": "2026-04-16T04:16:25Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9522,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 168.5851659014656,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_96228",
+    "timestamp": "2026-04-16T04:09:07Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.97,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.83989781665869,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_40656",
+    "timestamp": "2026-04-16T04:03:46Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9304,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.824147430572576,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_95847",
+    "timestamp": "2026-04-16T03:47:37Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9709,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.760659041195247,
+      "Magnitue": 11.708510841231773,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_83604",
+    "timestamp": "2026-04-16T03:44:23Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9371,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 122.46330279198504,
+      "Magnitue": 54.6626014748658,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_98266",
+    "timestamp": "2026-04-16T03:26:42Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9463,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.079460792924668,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_51003",
+    "timestamp": "2026-04-16T03:21:37Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9337,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 185.8647615684866,
+      "Magnitue": 9.179258366558356,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_92367",
+    "timestamp": "2026-04-16T03:21:31Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9728,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 25.4647929761346,
+      "Magnitue": 10.53374065187766,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_16896",
+    "timestamp": "2026-04-16T03:09:49Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9371,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 67.27605802720461,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_15236",
+    "timestamp": "2026-04-16T03:05:58Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9473,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 337.5296820199786,
+      "Magnitue": 11.624368940891332,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_79938",
+    "timestamp": "2026-04-16T03:02:23Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9395,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.9028290045433,
+      "Magnitue": 11.804164021685583,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_35320",
+    "timestamp": "2026-04-16T02:51:20Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9231,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 164.9632425930192,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_53769",
+    "timestamp": "2026-04-16T02:22:38Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9329,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 129.76144762930556,
+      "Magnitue": 54.6626014748658,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_60288",
+    "timestamp": "2026-04-16T02:19:01Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9392,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.143013982373422,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_46553",
+    "timestamp": "2026-04-16T02:02:54Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9861,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.940686525644988,
+      "Magnitue": 11.647275577672286,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_65273",
+    "timestamp": "2026-04-16T01:41:57Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9643,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 161.7879884461561,
+      "Magnitue": 9.243735705686468,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_85654",
+    "timestamp": "2026-04-16T01:40:24Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9403,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 2.200807503191869,
+      "Magnitue": 16.78198565014002,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_68956",
+    "timestamp": "2026-04-16T01:30:43Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9587,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 150.61988557388705,
+      "Magnitue": 25.191992998088608,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_52826",
+    "timestamp": "2026-04-16T01:29:01Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9471,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 145.73349722341334,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_28234",
+    "timestamp": "2026-04-16T01:27:24Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9761,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 160.24473924966154,
+      "Magnitue": 9.179258366558356,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_21164",
+    "timestamp": "2026-04-16T01:13:51Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9379,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 68.6682999992963,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_11523",
+    "timestamp": "2026-04-16T00:59:17Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9862,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 5.313994523447555,
+      "Magnitue": 11.032042516270238,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_17652",
+    "timestamp": "2026-04-16T00:37:05Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9341,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.809354637345781,
+      "Magnitue": 10.42176506197296,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_18071",
+    "timestamp": "2026-04-16T00:28:10Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9514,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.806449807384977,
+      "Magnitue": 10.564610032719816,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72630",
+    "timestamp": "2026-04-16T00:26:34Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9559,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 163.75429485605528,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_23172",
+    "timestamp": "2026-04-16T00:18:03Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9406,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 180.64930426154845,
+      "Magnitue": 20.114798276024363,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_63330",
+    "timestamp": "2026-04-15T23:42:52Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9561,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 164.11052968333985,
+      "Magnitue": 19.494791743777057,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_71622",
+    "timestamp": "2026-04-15T23:39:47Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9457,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 175.31532143978347,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_80425",
+    "timestamp": "2026-04-15T23:35:19Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9421,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 162.67242865630033,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_26272",
+    "timestamp": "2026-04-15T23:19:26Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9862,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 165.0110545802905,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_56576",
+    "timestamp": "2026-04-15T23:02:35Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9812,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 4.4266438820042175,
+      "Magnitue": 11.755198572646146,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_44918",
+    "timestamp": "2026-04-15T22:38:49Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9855,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 169.3020383015319,
+      "Magnitue": 9.477669476174452,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_95610",
+    "timestamp": "2026-04-15T22:27:39Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9898,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.997975167134868,
+      "Magnitue": 11.279437762655082,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_32002",
+    "timestamp": "2026-04-15T22:02:11Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9822,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 8.764680938339543,
+      "Magnitue": 11.639529983359074,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72378",
+    "timestamp": "2026-04-15T22:02:09Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9508,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 155.8541484976038,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_15221",
+    "timestamp": "2026-04-15T21:44:26Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9486,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.738589682443771,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_39368",
+    "timestamp": "2026-04-15T21:41:06Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9299,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 144.04561765123108,
+      "Magnitue": 21.40946413153112,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_39716",
+    "timestamp": "2026-04-15T21:26:23Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9608,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 2.0465977605889782,
+      "Magnitue": 12.739445498452165,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_57555",
+    "timestamp": "2026-04-15T21:17:02Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9697,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 20.842705451647333,
+      "Magnitue": 10.914771171610305,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_57747",
+    "timestamp": "2026-04-15T21:16:47Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9386,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.150010522185235,
+      "Magnitue": 11.52614796463896,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_25784",
+    "timestamp": "2026-04-15T21:05:28Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9859,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.620405924382831,
+      "Magnitue": 11.651613630603483,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_49907",
+    "timestamp": "2026-04-15T21:02:27Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9383,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.808847944750427,
+      "Magnitue": 11.45555743904744,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_35099",
+    "timestamp": "2026-04-15T21:01:08Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.981,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.378441104268504,
+      "Magnitue": 11.73978655360965,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_43509",
+    "timestamp": "2026-04-15T20:57:37Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9219,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.287158930564196,
+      "Magnitue": 11.722811874837774,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_68484",
+    "timestamp": "2026-04-15T20:55:58Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9583,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 166.10918870155186,
+      "Magnitue": 9.17514671662859,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_95521",
+    "timestamp": "2026-04-15T20:55:12Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9373,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 156.65833594468393,
+      "Magnitue": 9.218375153738592,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_61362",
+    "timestamp": "2026-04-15T20:53:03Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.944,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 150.7051943344501,
+      "Magnitue": 21.464622285935967,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_32405",
+    "timestamp": "2026-04-15T20:45:55Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9493,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.825110671025546,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_45528",
+    "timestamp": "2026-04-15T20:41:04Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9499,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 157.7922530954747,
+      "Magnitue": 9.22612662951957,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72343",
+    "timestamp": "2026-04-15T20:34:32Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9678,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 167.0011286353313,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_28495",
+    "timestamp": "2026-04-15T20:32:57Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.966,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.712914223588747,
+      "Magnitue": 11.670057935444277,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_11240",
+    "timestamp": "2026-04-15T20:25:03Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9339,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 12.362225980835335,
+      "Magnitue": 11.925069341577991,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_93571",
+    "timestamp": "2026-04-15T20:03:50Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.98,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 60.04938257125201,
+      "Magnitue": 33.51620802807829,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_70914",
+    "timestamp": "2026-04-15T20:02:52Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9426,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 166.3781880808625,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_55687",
+    "timestamp": "2026-04-15T19:56:52Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.924,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 0.292960908955818,
+      "Magnitue": 10.991161735205536,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_62900",
+    "timestamp": "2026-04-15T19:55:54Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9338,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 168.54598368665077,
+      "Magnitue": 9.876797758109108,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_90129",
+    "timestamp": "2026-04-15T19:54:13Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9775,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 25.587737356474783,
+      "Magnitue": 11.75969828821636,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_50566",
+    "timestamp": "2026-04-15T19:45:03Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9605,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 166.31292801058652,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72634",
+    "timestamp": "2026-04-15T19:41:00Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9265,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 171.50434067212834,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_17004",
+    "timestamp": "2026-04-15T19:36:46Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9757,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 4.071815129505264,
+      "Magnitue": 11.778670741628837,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_84492",
+    "timestamp": "2026-04-15T19:35:09Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9752,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 120.20669037421924,
+      "Magnitue": 11.489125293076055,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_43917",
+    "timestamp": "2026-04-15T19:33:40Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9775,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 151.85776276957804,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_48572",
+    "timestamp": "2026-04-15T19:32:09Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.954,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.765732210396766,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_75850",
+    "timestamp": "2026-04-15T19:29:06Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9733,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 137.8701639583758,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_82986",
+    "timestamp": "2026-04-15T19:24:31Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.943,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 180.87434528724523,
+      "Magnitue": 33.13199858235182,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_53850",
+    "timestamp": "2026-04-15T19:22:20Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9722,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 153.47641621319886,
+      "Magnitue": 54.6626014748658,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_85014",
+    "timestamp": "2026-04-15T19:19:06Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.943,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 140.51894597359495,
+      "Magnitue": 28.331679618774224,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_39393",
+    "timestamp": "2026-04-15T18:53:12Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9761,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.878333694469307,
+      "Magnitue": 10.752248014858749,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_69160",
+    "timestamp": "2026-04-15T18:47:58Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9562,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 159.11701060761553,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_36750",
+    "timestamp": "2026-04-15T18:31:28Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9825,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.4988558771695795,
+      "Magnitue": 10.53374065187766,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_91862",
+    "timestamp": "2026-04-15T17:51:34Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9672,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 99.35590899892468,
+      "Magnitue": 11.489125293076055,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_98534",
+    "timestamp": "2026-04-15T17:40:57Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9426,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.182971493573542,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_85202",
+    "timestamp": "2026-04-15T17:37:36Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9741,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 185.17910362633404,
+      "Magnitue": 22.333145063354124,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_61409",
+    "timestamp": "2026-04-15T17:19:56Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9381,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 171.0778657922564,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_87838",
+    "timestamp": "2026-04-15T17:15:02Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9673,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 180.79458343907385,
+      "Magnitue": 38.32520984318967,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_67995",
+    "timestamp": "2026-04-15T17:10:16Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9486,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 186.37115220165865,
+      "Magnitue": 9.218106579253677,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_94346",
+    "timestamp": "2026-04-15T17:03:23Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9243,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 8.78198848982479,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_79078",
+    "timestamp": "2026-04-15T16:51:17Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9341,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 13.320317966755976,
+      "Magnitue": 11.658101255628743,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_94275",
+    "timestamp": "2026-04-15T16:49:45Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9755,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 154.55743429128097,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_75803",
+    "timestamp": "2026-04-15T16:32:51Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9609,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 79.41954362912836,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_31948",
+    "timestamp": "2026-04-15T16:09:58Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9816,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 11.045250098058142,
+      "Magnitue": 11.584634029703972,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_69233",
+    "timestamp": "2026-04-15T16:05:06Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9655,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 11.106009957196466,
+      "Magnitue": 11.75583067207648,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_44736",
+    "timestamp": "2026-04-15T15:40:39Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9619,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 0.1370610965790164,
+      "Magnitue": 11.082266267815845,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_58214",
+    "timestamp": "2026-04-15T15:35:19Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9438,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 144.26172973121703,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_19585",
+    "timestamp": "2026-04-15T15:24:43Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9208,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 49.20814696425892,
+      "Magnitue": 25.163061837013768,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_52095",
+    "timestamp": "2026-04-15T15:22:11Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9268,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 2.061880391535193,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_78876",
+    "timestamp": "2026-04-15T15:19:30Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9658,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.017988560615491,
+      "Magnitue": 10.642842537749404,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72771",
+    "timestamp": "2026-04-15T15:17:19Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9223,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 173932.45986320594,
+      "Magnitue": 11.378827569699888,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_93017",
+    "timestamp": "2026-04-15T15:11:03Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9821,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 167.0335653684835,
+      "Magnitue": 19.81936132241002,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_33901",
+    "timestamp": "2026-04-15T14:56:40Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9417,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 147.4736348986832,
+      "Magnitue": 10.392304845413264,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_50426",
+    "timestamp": "2026-04-15T14:51:28Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9498,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 67.44839898783648,
+      "Magnitue": 13.445945748360703,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_59084",
+    "timestamp": "2026-04-15T14:45:43Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9562,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 159.12100240782584,
+      "Magnitue": 9.289746535493636,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_52119",
+    "timestamp": "2026-04-15T14:39:26Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.951,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 2371.732804923313,
+      "Magnitue": 11.552424949930373,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_49082",
+    "timestamp": "2026-04-15T14:35:40Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9501,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 96682.0100198436,
+      "Magnitue": 11.417588433744871,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_62462",
+    "timestamp": "2026-04-15T14:29:11Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9553,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.72520583867931,
+      "Magnitue": 11.660957069891293,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_67461",
+    "timestamp": "2026-04-15T14:27:47Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.9887,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 181.82947547215392,
+      "Magnitue": 27.97986952257125,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_17024",
+    "timestamp": "2026-04-15T14:16:35Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9819,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.439998585937609,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_65781",
+    "timestamp": "2026-04-15T14:07:10Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9221,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 9.693484602676753,
+      "Magnitue": 11.570834919617155,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_47625",
+    "timestamp": "2026-04-15T13:57:24Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.951,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 120.89092718941758,
+      "Magnitue": 11.489125293076055,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_37153",
+    "timestamp": "2026-04-15T13:53:25Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.928,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 161.56854343144553,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_72122",
+    "timestamp": "2026-04-15T13:52:09Z",
+    "attack_type": "ARP_Spoofing",
+    "confidence": 0.981,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 144.70010518235338,
+      "Magnitue": 53.066262371380525,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_13300",
+    "timestamp": "2026-04-15T13:39:05Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9563,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 151.3570279868613,
+      "Magnitue": 9.178565479296418,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_22390",
+    "timestamp": "2026-04-15T13:36:01Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9634,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 161.6566029843715,
+      "Magnitue": 9.179258366558356,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_98295",
+    "timestamp": "2026-04-15T13:35:11Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9269,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 12.069814784159508,
+      "Magnitue": 11.718591029515803,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_27801",
+    "timestamp": "2026-04-15T13:06:40Z",
+    "attack_type": "TCP_IP-DoS-ICMP1",
+    "confidence": 0.9522,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 170.2120128877661,
+      "Magnitue": 9.16515138991168,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_80234",
+    "timestamp": "2026-04-15T13:01:09Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9898,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 44.97634177491787,
+      "Magnitue": 11.388301705457542,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_30454",
+    "timestamp": "2026-04-15T12:49:50Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9279,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 6.765270967280228,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  },
+  {
+    "id": "evt_23625",
+    "timestamp": "2026-04-15T12:30:12Z",
+    "attack_type": "MQTT-DDoS-Connect-Flood",
+    "confidence": 0.9785,
+    "severity": "high",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 10.335691745039265,
+      "Magnitue": 11.365672029284164,
+      "syn_flag": 0
+    }
+  },
+  {
+    "id": "evt_69845",
+    "timestamp": "2026-04-15T12:16:02Z",
+    "attack_type": "Recon-Port_Scan",
+    "confidence": 0.9276,
+    "severity": "medium",
+    "details": {
+      "Protocol": "TCP/UDP",
+      "Rate": 7.376919630168054,
+      "Magnitue": 10.770329614269006,
+      "syn_flag": 1
+    }
+  }
+]
