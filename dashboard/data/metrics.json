@@ -1,0 +1,12 @@
+{
+  "totalTraffic": 1420500,
+  "blockedAttacks": 3680,
+  "accuracy": 0.9848,
+  "activeThreats": 4,
+  "breakdown": {
+    "ARP_Spoofing": 40,
+    "Recon_Port_Scan": 40,
+    "DoS_ICMP": 40,
+    "MQTT_Flood": 40
+  }
+}
