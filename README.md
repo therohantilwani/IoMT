@@ -1,11 +1,17 @@
-# IoMT Attack Detection — Logistic Regression Classifier
+# IoMT Security Intelligence
 
-Multi-class attack detection for Internet of Medical Things (IoMT) network traffic.  
-Dataset: [CIC-IoMT 2024](https://www.unb.ca/cic/datasets/iomt-dataset-2024.html) — University of New Brunswick
+Real-time threat detection and monitoring dashboard for Internet of Medical Things (IoMT) networks. Powered by a machine learning pipeline trained on the CIC-IoMT-2024 dataset.
 
-## Detects
+## Features
 
-| Class | Description |
+- **Live Threat Monitoring** — Real-time classification of network traffic into attack types and benign flows
+- **AI Security Analyst** — Contextual AI assistant powered by local Qwen models via Ollama
+- **Attack Analytics** — Confusion matrices, classification reports, and threat distribution charts
+- **Export Reports** — Download threat data as CSV for further analysis
+
+## Attack Types
+
+| Attack | Description |
 |---|---|
 | ARP_Spoofing | Layer-2 man-in-the-middle via forged ARP replies |
 | Benign | Normal network traffic |
@@ -13,65 +19,57 @@ Dataset: [CIC-IoMT 2024](https://www.unb.ca/cic/datasets/iomt-dataset-2024.html)
 | Recon-Port_Scan | Network reconnaissance via port scanning |
 | TCP_IP-DoS-ICMP1 | ICMP flood denial-of-service attack |
 
-## Results
+## Quick Start
 
-| Metric | Score |
-|---|---|
-| Accuracy | 95.49% |
-| Macro F1 | 0.8916 |
-| Weighted F1 | 0.9576 |
+### Prerequisites
 
-## Project structure
+- Python 3.10+
+- [Ollama](https://ollama.com) (for AI Assistant)
+- Qwen model: `ollama pull qwen2.5:latest` or `ollama pull Qwen:latest`
+
+### Install
+
+```bash
+pip install flask requests
+```
+
+### Run
+
+```bash
+python app.py
+```
+
+Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+## AI Assistant
+
+Click the AI Assist bubble in the bottom-right corner to ask contextual questions about:
+- Most frequent attack types
+- Security posture recommendations
+- Device safety assessments
+
+The assistant runs locally via Ollama with no data sent externally.
+
+## Project Structure
 
 ```
-├── Cleaned/                                    # Cleaned merged CSV (generated)
-├── datasets/                                   # Raw CSV files (not tracked in git)
-├── reports/                                    # Figures, outputs
-├── src/
-│   ├── models/
-│   │   ├── logistic_regression_pipeline.joblib
-│   │   └── label_encoder.joblib
-│   ├── Clean_code.py                           # Step 1: clean and merge raw data
-│   └── train.py                                # Step 2: train model, print metrics
-├── .gitignore
-├── README.md
+├── app.py                    # Flask backend + AI chat endpoint
+├── dashboard/                # Frontend dashboard
+│   ├── index.html
+│   ├── styles.css
+│   ├── app.js
+│   └── data/                 # Metrics and alert data
+├── src/                      # ML pipeline scripts
+├── models/                   # Trained model files
+├── data/                     # Cleaned dataset files
 └── requirements.txt
 ```
 
-## Setup
+## Model Performance
 
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Step 1 — Clean the data
-
-Place the 5 raw CSV files in `datasets/` then run:
-
-```bash
-python src/Clean_code.py
-```
-
-Output: `Cleaned/iomt_merged_clean.csv`
-
-### Step 2 — Train the model
-
-```bash
-python src/train.py
-```
-
-Output: `src/models/logistic_regression_pipeline.joblib` and `src/models/label_encoder.joblib`
-
-### Load the model in your own script
-
-```python
-import joblib
-
-lr_model      = joblib.load("src/models/logistic_regression_pipeline.joblib")
-label_encoder = joblib.load("src/models/label_encoder.joblib")
-
-predictions = lr_model.predict(X_new)
-labels      = label_encoder.inverse_transform(predictions)
-```
+| Metric | Score |
+|---|---|
+| Accuracy | 99.04% |
+| Macro F1 | 0.91 |
+| MQTT-DDoS F1 | 1.00 |
+| TCP_IP-DoS F1 | 1.00 |
