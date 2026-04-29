@@ -1,0 +1,101 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-944-327
+ * Detected change in '/Users/rohan/Documents/Data Science/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 115-944-327
+127.0.0.1 - - [29/Apr/2026 13:17:55] "POST /api/chat HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:18:02] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:18:02] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:18:02] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:18:07] "POST /api/chat HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:18:31] "POST /api/chat HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:20:03] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:20:03] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:20:03] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:25:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:25:10] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:25:10] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:25:10] "GET /data/metrics.json HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:25:10] "GET /data/alerts.json HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:26:43] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:26:43] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:26:43] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:26:43] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:26:43] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:27:09] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:27:09] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:27:09] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:27:09] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:27:09] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:08] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:08] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:28:08] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:08] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:08] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:14] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:14] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:14] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:14] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:28:14] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:30:16] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:30:16] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:30:16] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:30:16] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:30:16] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:31:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:31:03] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:31:03] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:31:03] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:31:03] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:34:07] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:34:07] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:34:07] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:34:07] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:34:07] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:50] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:50] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:50] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:50] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:50] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:51] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:51] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:51] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:51] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:35:51] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:34] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:34] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:38:34] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:38:34] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:34] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:43] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:43] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:43] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:43] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:38:43] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:04] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:04] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:04] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:04] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:04] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:13] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:13] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:13] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:13] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:13] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:15] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:15] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:15] "[36mGET /app.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:15] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:40:15] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:41:13] "[36mGET / HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:41:13] "[36mGET /styles.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:41:13] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [29/Apr/2026 13:41:13] "[36mGET /data/alerts.json HTTP/1.1[0m" 304 -
+127.0.0.1 - - [29/Apr/2026 13:41:13] "[36mGET /data/metrics.json HTTP/1.1[0m" 304 -
