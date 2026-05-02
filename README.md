@@ -11,7 +11,7 @@ Real-time threat detection and monitoring dashboard for Internet of Medical Thin
 
 ## Screenshots
 
-<img width="1917" height="895" alt="1" src="https://github.com/user-attachments/assets/fbd6af4e-9fe3-4dfa-8d7c-56862c6d9ce3" />
+<img width="1917" height="895" alt="1" src="https://github.com/user-attachments/assets/fbd6af4e-9fe3-4dfa-8d7c-56862c6d9ce3" /> </n>
 
 
 <img width="539" height="614" alt="2" src="https://github.com/user-attachments/assets/d47abe56-eca6-49c1-8ab6-6c7b152ee42c" />
