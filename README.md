@@ -9,6 +9,17 @@ Real-time threat detection and monitoring dashboard for Internet of Medical Thin
 - **Attack Analytics** — Confusion matrices, classification reports, and threat distribution charts
 - **Export Reports** — Download threat data as CSV for further analysis
 
+## Screenshots
+
+### Dashboard Overview
+![Overview](screenshots/1.png)
+
+### Analytics View
+![Analytics](screenshots/2.png)
+
+### AI Assistant
+![AI Chat](screenshots/3.png)
+
 ## Attack Types
 
 | Attack | Description |
