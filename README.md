@@ -13,15 +13,21 @@ Real-time threat detection and monitoring dashboard for Internet of Medical Thin
 
 <img width="1917" height="895" alt="1" src="https://github.com/user-attachments/assets/fbd6af4e-9fe3-4dfa-8d7c-56862c6d9ce3" />
 
+
 <img width="539" height="614" alt="2" src="https://github.com/user-attachments/assets/d47abe56-eca6-49c1-8ab6-6c7b152ee42c" />
+
 
 <img width="539" height="614" alt="3" src="https://github.com/user-attachments/assets/323c57b3-a005-4199-873b-825acabf3491" />
 
+
 <img width="1917" height="897" alt="4" src="https://github.com/user-attachments/assets/44a47570-6da9-4e50-a355-039d3eedc066" />
+
 
 <img width="1917" height="897" alt="5" src="https://github.com/user-attachments/assets/8e1dae8f-a317-4de5-8679-5e8846214a54" />
 
+
 <img width="1917" height="897" alt="6" src="https://github.com/user-attachments/assets/e7ec62d2-8ae0-4912-ae4f-3058148eedb9" />
+
 
 
 ## Attack Types
